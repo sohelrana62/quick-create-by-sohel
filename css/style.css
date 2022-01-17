@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body h1 h2 h3 h4 h5 h6  button a span p{
+font-family: 'Rubik', sans-serif;
+}
+
+/*
+header section code
+*/
+header{
+	width: 100%;
+	padding: 15px;
+	border-bottom: 2px solid #eee;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navber{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+	line-height: 75px;
+	cursor: pointer;
+	
+}
+
+/*
+ banner section part css
+*/
+#banner{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+
+}
+.banner-part h1{
+	font-size: 56px;
+	margin-bottom: 16px;
+}
+.banner-part span{
+	color: #008aff;
+}
+.banner-part p{
+	font-weight: 300px;
+	margin-bottom: 32px;
+}
+/*statistics section part css*/
+#statistics{
+	width: 100%;
+	padding: 40px 0px;
+}
+.statistics-part{
+	display: flex;
+}
+.left,.right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+	margin-right: 18px;
+}
+.right{
+	text-align: left;
+	margin-left: 18px;
+}
+.left h2{
+	font-size: 42px;
+	color: tomato;
+	margin-bottom: 8px;
+
+}
+.left p{
+	font-weight: 300px;
+	line-height: 1.5;
+
+}
+.right h2{
+	font-size: 42px;
+	color: #3f3d56;
+}
+/*services section part css*/
+#services{
+	width: 100%;
+	padding: 40px 0px;
+}
+.services-row{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.services-item{
+	margin: 20px;
+	padding: 16px;
+}
+.one{
+	background: #fdebed;
+}
+.two{
+	background: #ebf9f4;
+}
+.three{
+	background: #fff7e8;
+}
+.services-item h4{
+	font-size: 20px;
+	margin-bottom: 12px;
+	font-weight: 500px;
+}
+.services-item p{
+	font-weight: 300px;
+}
+/*footer section part css*/
+
+footer{
+	background: #008aff;
+	padding: 20px 0;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+.footer-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 16px;
+	
+}
+
+.footer-icon ul li a i{ 
+	height: 40px;
+	width: 40px;
+	background: #47c4ff;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	transition: 0.3;
+}
+
+.footer-icon ul li a i:hover{
+	transform: rotate(360deg);
+	transition: 0.3s;
+	background: tomato;
+}
